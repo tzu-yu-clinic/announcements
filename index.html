@@ -20,6 +20,10 @@
             border: 1px solid #000;
         }
 
+        .card-body .table tr:first-child td {
+            border-top: 0;
+        }
+
         html {
             font-size: 14px;
         }
@@ -112,52 +116,56 @@
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>國定假日照常看診</li>
                             </ul>
-                            <table class="table table-bordered table-striped">
-                                <thead>
-                                    <tr>
-                                        <th class="align-middle">時間/星期</th>
-                                        <th class="align-middle">一</th>
-                                        <th class="align-middle">二</th>
-                                        <th class="align-middle">三</th>
-                                        <th class="align-middle">四</th>
-                                        <th class="align-middle">五</th>
-                                        <th class="align-middle">六</th>
-                                        <th class="align-middle">日</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="align-middle text-nowrap">早 08:00-12:00</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">X</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="align-middle text-nowrap">午 03:00-06:00</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">X</td>
-                                        <td class="align-middle">X</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="align-middle text-nowrap">晚 07:00-09:00</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">O</td>
-                                        <td class="align-middle">X</td>
-                                        <td class="align-middle">X</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="row">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="align-middle text-nowrap">時間/星期</th>
+                                                <th scope="col" class="align-middle">一</th>
+                                                <th scope="col" class="align-middle">二</th>
+                                                <th scope="col" class="align-middle">三</th>
+                                                <th scope="col" class="align-middle">四</th>
+                                                <th scope="col" class="align-middle">五</th>
+                                                <th scope="col" class="align-middle">六</th>
+                                                <th scope="col" class="align-middle">日</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="align-middle text-nowrap">早 08:00-12:00</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">X</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-middle text-nowrap">午 03:00-06:00</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">X</td>
+                                                <td class="align-middle">X</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-middle text-nowrap">晚 07:00-09:00</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">O</td>
+                                                <td class="align-middle">X</td>
+                                                <td class="align-middle">X</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
